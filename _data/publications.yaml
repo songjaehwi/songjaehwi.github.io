@@ -1,6 +1,6 @@
 papers:
 
   - title: "Learning Multi-View Spatial Reasoning from Cross-View Relations"
-    authors: "Suchae Jeong<sup><span style='font-size: 1.5em;'>*</span></sup>, <b>Jaehwi Song<sup><span style='font-size: 1.5em;'>*</span></sup></b>, Haeone Lee, Hanna Kim, Jian Kim, Dongjun Lee, Dong Kyu Shin, Changyeon Kim, Dongyoon Hahm, Woogyeol Jin, Juheon Choi, Kimin Lee"
+    authors: "Suchae Jeong<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup>, <b>Jaehwi Song<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></b>, Haeone Lee, Hanna Kim, Jian Kim, Dongjun Lee, Dong Kyu Shin, Changyeon Kim, Dongyoon Hahm, Woogyeol Jin, Juheon Choi, Kimin Lee"
     venue: "Under Review. 2026."
     selected: y
