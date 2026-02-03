@@ -9,19 +9,19 @@ experiences:
 - place: "Config Intelligence"
   time: "2025.07 - Present"
   title: "Robotics Intern"
-  subtitle: ""
+  subtitle: "Supervisor: Ph.D. Hyungmok Son<br/>Co-advisors: Prof. Kimin Lee, Prof. Minjoon Seo, and Sungdong Kim"
   category: "work"
 
 - place: "Korea Institute of Science and Technology"
   time: "2024.12 - 2025.06"
   title: "Undergraduate Intern"
-  subtitle: "Sim2Real Deployment of Go2 Robot for Autonomous Navigation<br/>Advised by Ph.D Taekgeun Yoo"
+  subtitle: "Center for Artificial Intelligence<br/>Advised by Ph.D. Hwasup Lim and Taekgeun Yoo"
   category: "work"
 
 - place: "Hanyang University, LRNING Lab"
   time: "2024.03 - 2024.08"
   title: "Undergraduate Intern"
-  subtitle: "Threshold adaptation in FixMatch of Semi-Supervised Learning<br/>Advised by Prof. Sungyoon Lee"
+  subtitle: "Advised by Prof. Sungyoon Lee"
   category: "work"
 
 - place: "Republic Of Korea AirForce (ROKAF)"
