@@ -51,6 +51,12 @@ h4 {
   color: rgba(0, 0, 0, 0.60); }
 .image {
   text-align: center; }
+.docs-section a {
+  text-decoration: none;
+  border-bottom: 1px solid #33C3F0; }
+.docs-section a:hover {
+  color: #33C3F0;
+  border-bottom: 2px solid #33C3F0; }
 
 /*  ================ Project styling  ================ */
 .project-container {
