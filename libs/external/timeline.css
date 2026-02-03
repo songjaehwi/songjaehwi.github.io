@@ -1,7 +1,7 @@
 /* ================ The Timeline ================ */
 .timeline {
   position: relative;
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 1em 0;
@@ -42,14 +42,14 @@
 
 .direction-l {
   position: relative;
-  width: 420px;
+  width: 370px;
   float: left;
   text-align: right;
 }
 
 .direction-r {
   position: relative;
-  width: 420px;
+  width: 370px;
   float: right;
 }
 
