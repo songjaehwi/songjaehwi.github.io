@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Learning Multi-View Spatial Reasoning from Cross-View Relations"
+  - title: "[C1] Learning Multi-View Spatial Reasoning from Cross-View Relations"
     authors: "Suchae Jeong<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup>, <b><u>Jaehwi Song </u></b><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup>, Haeone Lee, Hanna Kim, Jian Kim, Dongjun Lee, Dong Kyu Shin, Changyeon Kim, Dongyoon Hahm, Woogyeol Jin, Juheon Choi, Kimin Lee"
-    venue: "Computer Vision and Pattern Recognition (CVPR), 2026"
+    venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
     selected: y

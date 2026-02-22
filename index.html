@@ -56,7 +56,7 @@ title: Home
       {% for paper in selected_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
+          <p class="authors">{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
@@ -92,7 +92,7 @@ title: Home
       {% for paper in site.data.publications.papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
+          <p class="authors">{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
