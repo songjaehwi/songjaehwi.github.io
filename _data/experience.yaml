@@ -1,7 +1,13 @@
 experiences:
 
+- place: "KAIST"
+  time: "2026.09 - Present"
+  title: "Integrated M.S./Ph.D. Student"
+  subtitle: "Advised by Prof. Kimin Lee"
+  category: "school"
+
 - place: "KAIST, RISE Lab"
-  time: "2025.09 - Present"
+  time: "2025.09 - 2026.08"
   title: "Research Intern"
   subtitle: "Advised by Prof. Kimin Lee"
   category: "school"
