@@ -29,7 +29,7 @@ h4 {
   font-size: 9pt;
   line-height: 25px;
   text-transform: none;
-  border-color: #375d72;
+  border: 1px solid #375d72;
   color: #375d72;
 }
 .section-header {
