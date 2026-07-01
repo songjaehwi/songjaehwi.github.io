@@ -4,12 +4,12 @@ papers:
     authors: "<b><u>Jaehwi Song</u></b>, <a>Suchae Jeong</a>, <a>Byeongguk Jeon</a>, <a>Sungdong Kim</a>, <a>Minjoon Seo</a>, <a>Hyungmok Son</a>, <a>Kimin Lee</a>"
     venue: "arXiv preprint, 2026"
     paper_pdf: "https://arxiv.org/abs/2606.31682"
-    website:"https://habit-dataset.github.io/"
+    website: "https://habit-dataset.github.io/"
     selected: y
 
   - title: "[C1] Learning Multi-View Spatial Reasoning from Cross-View Relations"
     authors: "<a>Suchae Jeong<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Jaehwi Song</u></b><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup>, <a>Haeone Lee</a>, <a>Hanna Kim</a>, <a>Jian Kim</a>, <a>Dongjun Lee</a>, <a>Dong Kyu Shin</a>, <a>Changyeon Kim</a>, <a>Dongyoon Hahm</a>, <a>Woogyeol Jin</a>, <a>Juheon Choi</a>, <a>Kimin Lee</a>"
     venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
     paper_pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Learning_Multi-View_Spatial_Reasoning_from_Cross-View_Relations_CVPR_2026_paper.pdf"
-    website:"https://cross-view-relations.github.io/"
+    website: "https://cross-view-relations.github.io/"
     selected: y
