@@ -1,5 +1,11 @@
 papers:
 
+  - title: "[P1] HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation"
+    authors: "<b><u>Jaehwi Song</u></b>, <a>Suchae Jeong</a>, <a>Byeongguk Jeon</a>, <a>Sungdong Kim</a>, <a>Minjoon Seo</a>, <a>Hyungmok Son</a>, <a>Kimin Lee</a>"
+    venue: "arXiv preprint, 2026"
+    paper_pdf: "https://arxiv.org/abs/2606.31682"
+    selected: y
+
   - title: "[C1] Learning Multi-View Spatial Reasoning from Cross-View Relations"
     authors: "<a>Suchae Jeong<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Jaehwi Song</u></b><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup>, <a>Haeone Lee</a>, <a>Hanna Kim</a>, <a>Jian Kim</a>, <a>Dongjun Lee</a>, <a>Dong Kyu Shin</a>, <a>Changyeon Kim</a>, <a>Dongyoon Hahm</a>, <a>Woogyeol Jin</a>, <a>Juheon Choi</a>, <a>Kimin Lee</a>"
     venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
