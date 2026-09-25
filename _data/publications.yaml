@@ -2,7 +2,7 @@ papers:
 
   - title: "[C2] HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation"
     authors: "<b><u>Jaehwi Song</u></b>, <a>Suchae Jeong</a>, <a>Byeongguk Jeon</a>, <a>Sungdong Kim</a>, <a>Minjoon Seo</a>, <a>Hyungmok Son</a>, <a>Kimin Lee</a>"
-    venue: "Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track, 2026 as <b style='color: red;'>oral presentation (15/3757=0.4%)</b>"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, 2026<br/><b style='color: red;'>Oral presentation (15/3757=0.4%)</b>"
     paper_pdf: "https://arxiv.org/abs/2606.31682"
     website: "https://habit-dataset.github.io/"
     selected: y
