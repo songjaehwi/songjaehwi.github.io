@@ -57,7 +57,7 @@ title: Home
       </a>
       {% endif %}
       <div class="paper-copy">
-        <div class="paper-meta"><span>{{ paper.venue_short }} {{ paper.year }}</span>{% if paper.award %}<span class="paper-award">{{ paper.award }}</span>{% endif %}</div>
+        <div class="paper-meta"><span>{{ paper.venue_short }} {{ paper.year }}{% if paper.venue_track %} · {{ paper.venue_track }}{% endif %}</span>{% if paper.award %}<span class="paper-award">{{ paper.award }}</span>{% endif %}</div>
         <h3>{{ paper.title }}</h3>
         <p class="paper-authors">{{ paper.authors }}</p>
         {% if paper.authors contains '*' %}<p class="contribution-note">* Equal contribution</p>{% endif %}
