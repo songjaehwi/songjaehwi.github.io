@@ -58,7 +58,7 @@ h2 { font: 500 27px/1.4 var(--heading); letter-spacing: -.035em; }
 .figure-image { height: 167px; padding: 8px; display: flex; align-items: center; justify-content: center; }
 .figure-image img { width: 100%; height: 100%; object-fit: contain; }
 .paper-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; color: var(--green); font-size: 15px; font-weight: 500; margin-bottom: 8px; }
-.paper-award { background: var(--soft); color: #456038; border-radius: 4px; padding: 1px 7px; font-size: 13px; }
+.paper-award { background: var(--soft); color: #456038; border-radius: 4px; padding: 1px 7px; font-size: 14px; }
 .paper h3 { font: 500 17px/1.5 var(--body); letter-spacing: -.015em; }
 .paper-authors { color: var(--muted); font-size: 15px; line-height: 1.8; margin-top: 8px; }
 .paper-authors strong { font-weight: 500; color: var(--ink); text-decoration: underline; text-decoration-color: #bbc7b5; text-underline-offset: 3px; }
