@@ -6,7 +6,7 @@ papers:
     video_title: "HABIT · Shelf cleaning rollout"
     authors: "<strong>Jaehwi Song</strong>, Suchae Jeong, Byeongguk Jeon, Sungdong Kim, Minjoon Seo, Hyungmok Son, Kimin Lee"
     venue: "NeurIPS, Evaluations & Datasets Track, 2026 · Oral presentation (15/3757 = 0.4%)"
-    venue_short: "NeurIPS · Evaluations & Datasets"
+    venue_short: "NeurIPS · Evaluations & Datasets Track"
     year: 2026
     award: "Oral · Top 0.4%"
     description: "Learning to collaborate, work alongside people, and respond to human guidance in a shared workspace."
