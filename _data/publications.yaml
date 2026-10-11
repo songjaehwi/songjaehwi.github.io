@@ -1,15 +1,36 @@
 papers:
-
-  - title: "[C2] HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation"
-    authors: "<b><u>Jaehwi Song</u></b>, <a>Suchae Jeong</a>, <a>Byeongguk Jeon</a>, <a>Sungdong Kim</a>, <a>Minjoon Seo</a>, <a>Hyungmok Son</a>, <a>Kimin Lee</a>"
-    venue: "Conference on Neural Information Processing Systems (NeurIPS), Evaluations & Datasets Track, 2026<br/><b style='color: red;'>Oral presentation (15/3757=0.4%)</b>"
+  - title: "HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation"
+    short_name: "HABIT"
+    video_mp4: "https://habit-dataset.github.io/static/videos/task_shelf-cleaning.mp4"
+    video_poster: "/assets/research/habit-rollout.webp"
+    video_title: "HABIT · Shelf cleaning rollout"
+    authors: "<strong>Jaehwi Song</strong>, Suchae Jeong, Byeongguk Jeon, Sungdong Kim, Minjoon Seo, Hyungmok Son, Kimin Lee"
+    venue: "NeurIPS, Evaluations & Datasets Track, 2026 · Oral presentation (15/3757 = 0.4%)"
+    venue_short: "NeurIPS · Evaluations & Datasets"
+    year: 2026
+    award: "Oral · Top 0.4%"
+    description: "Learning to collaborate, work alongside people, and respond to human guidance in a shared workspace."
+    image: "/assets/research/habit.webp"
+    image_width: 1200
+    image_height: 858
+    image_alt: "HABIT collection setup: a person shares a workspace with two robot arms, recorded by five cameras."
+    image_source: "https://habit-dataset.github.io/static/figures/unit_setup.png"
     paper_pdf: "https://arxiv.org/abs/2606.31682"
     website: "https://habit-dataset.github.io/"
     selected: y
 
-  - title: "[C1] Learning Multi-View Spatial Reasoning from Cross-View Relations"
-    authors: "<a>Suchae Jeong<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Jaehwi Song</u></b><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup>, <a>Haeone Lee</a>, <a>Hanna Kim</a>, <a>Jian Kim</a>, <a>Dongjun Lee</a>, <a>Dong Kyu Shin</a>, <a>Changyeon Kim</a>, <a>Dongyoon Hahm</a>, <a>Woogyeol Jin</a>, <a>Juheon Choi</a>, <a>Kimin Lee</a>"
+  - title: "Learning Multi-View Spatial Reasoning from Cross-View Relations"
+    short_name: "Cross-View Relations"
+    authors: "Suchae Jeong*, <strong>Jaehwi Song*</strong>, Haeone Lee, Hanna Kim, Jian Kim, Dongjun Lee, Dong Kyu Shin, Changyeon Kim, Dongyoon Hahm, Woogyeol Jin, Juheon Choi, Kimin Lee"
     venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+    venue_short: "CVPR"
+    year: 2026
+    description: "Teaching vision-language models to connect perspectives and reason about the same world across different views."
+    image: "/assets/research/xvr.webp"
+    image_width: 1400
+    image_height: 522
+    image_alt: "Cross-View Relations overview: correspondence, verification, and localization across multiple views of scenes and robotic tasks."
+    image_source: "https://cross-view-relations.github.io/static/images/teaser.png"
     paper_pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Learning_Multi-View_Spatial_Reasoning_from_Cross-View_Relations_CVPR_2026_paper.pdf"
     website: "https://cross-view-relations.github.io/"
     selected: y

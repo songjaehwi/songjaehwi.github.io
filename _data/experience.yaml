@@ -1,43 +1,52 @@
 experiences:
 
-- place: "KAIST"
+- place: "Korea Advanced Institute of Science and Technology"
+  logo: "/assets/logos/kaist-wordmark.png"
   time: "2026.09 - Present"
-  title: "Integrated M.S./Ph.D. Student"
+  title: "Ph.D. in Artificial Intelligence"
+  education: true
   subtitle: "Advised by Prof. Kimin Lee"
   category: "school"
 
-- place: "KAIST, RISE Lab"
+- place: "Korea Advanced Institute of Science and Technology · RISE Lab"
+  logo: "/assets/logos/kaist-wordmark.png"
   time: "2025.09 - 2026.08"
   title: "Research Intern"
   subtitle: "Advised by Prof. Kimin Lee"
   category: "school"
 
 - place: "Config"
+  logo: "/assets/logos/config.svg"
   time: "2025.07 - Present"
   title: "Member of Technical Staff (Full-time, since 2026.01)<br/>Robotics Intern (2025.07 - 2025.12)"
   subtitle: "Supervisor: Ph.D. Hyungmok Son<br/>Co-advisors: Prof. Kimin Lee, Prof. Minjoon Seo, and Sungdong Kim"
   category: "work"
 
 - place: "KIST, Center for Artificial Intelligence"
+  logo: "/assets/logos/kist-wordmark.png"
   time: "2024.12 - 2025.06"
   title: "Undergraduate Intern"
   subtitle: "Advised by Ph.D. Hwasup Lim and Taekgeun Yoo"
   category: "work"
 
 - place: "Hanyang University, LRNING Lab"
+  logo: "/assets/logos/hanyang.png"
   time: "2024.03 - 2024.08"
   title: "Undergraduate Intern"
   subtitle: "Advised by Prof. Sungyoon Lee"
   category: "school"
 
 - place: "Republic Of Korea AirForce (ROKAF)"
+  logo: "/assets/logos/rokaf.svg"
   time: "2022.06 - 2024.01"
   title: "Compulsory Military Service"
   subtitle: ""
   category: "work"
 
 - place: "Hanyang University"
+  logo: "/assets/logos/hanyang.png"
   time: "2020.03 - 2026.02"
   title: "B.S. (Double Major)"
+  education: true
   subtitle: "Information Systems & Computer Science<br/>GPA: 4.44/4.50 (Early Graduation)"
   category: "school"

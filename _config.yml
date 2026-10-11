@@ -2,6 +2,7 @@ source:      .
 destination: ./_site
 includes:    ./_includes
 baseurl: ""
+url: "https://songjaehwi.github.io"
 
 collections:
   projects:
