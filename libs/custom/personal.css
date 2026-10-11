@@ -16,7 +16,7 @@ body { margin: 0; background: var(--paper); color: var(--ink); font: 400 16px/1.
 a { color: var(--green); text-decoration: none; text-underline-offset: 4px; }
 a:hover { text-decoration: underline; }
 a, button { -webkit-tap-highlight-color: transparent; }
-a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
 button { font: inherit; cursor: pointer; }
 img { display: block; max-width: 100%; }
 h1, h2, h3, h4, p { margin: 0; }
@@ -44,6 +44,16 @@ h1 { font: 500 clamp(36px, 4.5vw, 48px)/1.2 var(--heading); letter-spacing: -.04
 .social-links { display: flex; align-items: center; flex-wrap: wrap; gap: 19px; margin-top: 22px; }
 .social-links a { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; line-height: 1.5; min-height: 37px; }
 .social-links .email-link { padding: 9px 12px; border-radius: 7px; background: var(--soft); }
+.email-contact { position: relative; }
+.email-contact summary { display: flex; align-items: center; gap: 7px; min-height: 37px; list-style: none; cursor: pointer; color: var(--green); font-size: 13px; line-height: 1.5; }
+.email-contact summary::-webkit-details-marker { display: none; }
+.email-options { position: absolute; top: calc(100% + 8px); left: 0; z-index: 3; width: min(280px, calc(100vw - 40px)); padding: 15px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); box-shadow: 0 5px 20px rgb(30 40 32 / .08); }
+.email-address { display: block; font-size: 14px; color: var(--ink); user-select: all; overflow-wrap: anywhere; }
+.email-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+.email-copy { border: 1px solid var(--line); border-radius: 5px; padding: 5px 8px; background: var(--soft); color: var(--green); font-size: 12px; min-height: 36px; }
+.email-actions a { font-size: 12px; }
+.email-status { min-height: 20px; margin-top: 4px; font-size: 12px; color: var(--green); }
+@media (pointer: coarse) { .email-contact summary, .email-copy { min-height: 44px; } }
 .section { border-top: 1px solid var(--line); padding-top: 30px; margin-top: 35px; }
 .research-section { margin-top: 0; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin-bottom: 8px; }
@@ -60,7 +70,7 @@ h2 { font: 500 27px/1.4 var(--heading); letter-spacing: -.035em; }
 .paper-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; color: var(--green); font-size: 14px; font-weight: 500; margin-bottom: 8px; }
 .paper-award { background: var(--soft); color: #456038; border-radius: 4px; padding: 1px 7px; font-size: 13px; }
 .paper h3 { font: 500 17px/1.5 var(--body); letter-spacing: -.015em; }
-.paper-authors { color: var(--muted); font-size: 13.5px; line-height: 1.8; margin-top: 8px; }
+.paper-authors { color: var(--muted); font-size: 14px; line-height: 1.8; margin-top: 8px; }
 .paper-authors strong { font-weight: 500; color: var(--ink); text-decoration: underline; text-decoration-color: #bbc7b5; text-underline-offset: 3px; }
 .paper-description { font-size: 13.5px; line-height: 1.75; color: var(--muted); margin-top: 9px; }
 .paper-links { display: flex; flex-wrap: wrap; align-items: center; gap: 19px; margin-top: 11px; font-size: 13px; }

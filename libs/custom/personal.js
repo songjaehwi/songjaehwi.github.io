@@ -1,4 +1,37 @@
 (() => {
+  const emailContact = document.querySelector('.email-contact');
+  if (emailContact) {
+    const address = emailContact.querySelector('.email-address');
+    const copy = emailContact.querySelector('.email-copy');
+    const status = emailContact.querySelector('.email-status');
+    copy.hidden = false;
+    copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(address.textContent.trim());
+        status.textContent = 'Copied!';
+      } catch {
+        const range = document.createRange();
+        range.selectNodeContents(address);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        status.textContent = 'Select and copy the address above.';
+      }
+    });
+    emailContact.addEventListener('toggle', () => {
+      if (!emailContact.open) status.textContent = '';
+    });
+    document.addEventListener('click', event => {
+      if (!emailContact.contains(event.target)) emailContact.open = false;
+    });
+    emailContact.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        emailContact.open = false;
+        emailContact.querySelector('summary').focus();
+      }
+    });
+  }
+
   const dialog = document.getElementById('figure-dialog');
   if (dialog && typeof dialog.showModal === 'function') {
     const image = dialog.querySelector('.expanded-figure');

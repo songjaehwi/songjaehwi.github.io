@@ -13,7 +13,17 @@ title: Home
     </p>
     <p class="bio">I also work as a Member of Technical Staff at <a href="https://config.inc/" target="_blank" rel="noopener noreferrer">Config</a>, supervised by Ph.D. Hyungmok Son and co-advised by Prof. Kimin Lee, Prof. Minjoon Seo, and Sungdong Kim.</p>
     <div class="social-links" aria-label="Contact and social profiles">
-      <a class="email-link" href="mailto:{{ site.data.main_info.email_address }}"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg>Email</a>
+      <details class="email-contact">
+        <summary class="email-link"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg>Email</summary>
+        <div class="email-options">
+          <span class="email-address">{{ site.data.main_info.email_address }}</span>
+          <div class="email-actions">
+            <button class="email-copy" type="button" hidden>Copy address</button>
+            <a href="mailto:{{ site.data.main_info.email_address }}">Open mail app ↗</a>
+          </div>
+          <p class="email-status" role="status" aria-live="polite"></p>
+        </div>
+      </details>
       <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-github"/></svg>GitHub</a>
       <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"/></svg>LinkedIn</a>
       <a href="{{ site.data.main_info.x }}" target="_blank" rel="noopener noreferrer" aria-label="X profile"><svg class="icon icon-brand" aria-hidden="true"><use href="#icon-x"/></svg><span>X</span></a>
